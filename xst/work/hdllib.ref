@@ -1,0 +1,8 @@
+EN max_freq NULL C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/max_freq.vhd sub00/vhpl04 1457844313
+AR codecfft behavioral C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/codecfft.vhd sub00/vhpl03 1457844312
+AR audio_loopback behavioral C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_loopback.vhd sub00/vhpl01 1457844310
+AR audio_process structural C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.vhd sub00/vhpl07 1457844316
+EN audio_loopback NULL C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_loopback.vhd sub00/vhpl00 1457844309
+AR max_freq behavioral C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/max_freq.vhd sub00/vhpl05 1457844314
+EN codecfft NULL C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/codecfft.vhd sub00/vhpl02 1457844311
+EN audio_process NULL C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.vhd sub00/vhpl06 1457844315

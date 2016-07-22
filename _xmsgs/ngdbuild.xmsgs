@@ -1,0 +1,1059 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="ConstraintSystem" num="119" delta="old" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;rfd&quot; LOC = &quot;B4&quot; |&gt; [ucf_file.ucf(13)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;rfd&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;rfd&quot; LOC = &quot;B4&quot; |&gt; [ucf_file.ucf(13)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="old" >Constraint <arg fmt="%s" index="1">&lt;IOSTANDARD = LVTTL |&gt; [ucf_file.ucf(13)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;rfd&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="old" >Constraint <arg fmt="%s" index="1">&lt;SLEW = SLOW |&gt; [ucf_file.ucf(13)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;rfd&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="old" >Constraint <arg fmt="%s" index="1">&lt;DRIVE = 6 ;&gt; [ucf_file.ucf(13)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;rfd&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="0" >The Period constraint &lt;PERIOD = 100MHZ |&gt; [ucf_file.ucf(1)], is specified using the Net Period method which is not recommended. Please use the Timespec PERIOD method.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PREG</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000011d</arg>&quot; of type &quot;<arg fmt="%s" index="3">DSP48A1</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk0000011d</arg>&apos; with type &apos;<arg fmt="%s" index="3">DSP48A1</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">DSP48A1</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PREG</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000011e</arg>&quot; of type &quot;<arg fmt="%s" index="3">DSP48A1</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk0000011e</arg>&apos; with type &apos;<arg fmt="%s" index="3">DSP48A1</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">DSP48A1</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PREG</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000011f</arg>&quot; of type &quot;<arg fmt="%s" index="3">DSP48A1</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk0000011f</arg>&apos; with type &apos;<arg fmt="%s" index="3">DSP48A1</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">DSP48A1</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">PREG</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk00000120</arg>&quot; of type &quot;<arg fmt="%s" index="3">DSP48A1</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk00000120</arg>&apos; with type &apos;<arg fmt="%s" index="3">DSP48A1</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">DSP48A1</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INITP_00</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INITP_01</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INITP_02</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INITP_03</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INITP_04</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INITP_05</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INITP_06</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INITP_07</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_00</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_01</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_02</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_03</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_04</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_05</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_06</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_07</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_08</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_09</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_0A</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_0B</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_0C</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_0D</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_0E</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_0F</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_10</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_11</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_12</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_13</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_14</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_15</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_16</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_17</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_18</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_19</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_1A</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_1B</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_1C</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_1D</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_1E</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_1F</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_20</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_21</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_22</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_23</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_24</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_25</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_26</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_27</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_28</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_29</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_2A</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_2B</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_2C</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_2D</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_2E</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_2F</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_30</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_31</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_32</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_33</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_34</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_35</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_36</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_37</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_38</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_39</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_3A</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_3B</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_3C</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_3D</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_3E</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_3F</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_A</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_B</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">SRVAL_A</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">SRVAL_B</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">WRITE_MODE_A</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">WRITE_MODE_B</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk0000019c</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk00000188/blk0000019c</arg>&apos; with type &apos;<arg fmt="%s" index="3">RAMB16BWER</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">RAMB16BWER</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INITP_00</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INITP_01</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INITP_02</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INITP_03</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INITP_04</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INITP_05</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INITP_06</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INITP_07</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_00</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_01</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_02</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_03</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_04</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_05</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_06</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_07</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_08</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_09</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_0A</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_0B</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_0C</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_0D</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_0E</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_0F</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_10</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_11</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_12</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_13</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_14</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_15</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_16</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_17</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_18</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_19</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_1A</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_1B</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_1C</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_1D</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_1E</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_1F</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_20</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_21</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_22</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_23</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_24</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_25</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_26</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_27</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_28</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_29</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_2A</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_2B</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_2C</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_2D</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_2E</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_2F</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_30</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_31</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_32</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_33</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_34</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_35</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_36</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_37</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_38</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_39</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_3A</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_3B</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_3C</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_3D</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_3E</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_3F</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_A</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_B</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">SRVAL_A</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">SRVAL_B</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">WRITE_MODE_A</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">WRITE_MODE_B</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000001b1</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk0000019d/blk000001b1</arg>&apos; with type &apos;<arg fmt="%s" index="3">RAMB16BWER</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">RAMB16BWER</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk00000392</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk00000393</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk00000394</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk00000395</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk00000396</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk00000397</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk00000398</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk00000399</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk0000039a</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk0000039b</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk0000039c</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk0000039d</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk0000039e</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk0000039f</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000003a0</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000003a1</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000003a2</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000003a3</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000003a4</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000003a5</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000003a6</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000003a7</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000003a8</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000003a9</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000003aa</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000003ab</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="old" >SFF primitive &apos;<arg fmt="%s" index="1">FFT/blk000003ac</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="old" >SFF primitive &apos;<arg fmt="%s" index="1">FFT/blk000003ad</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="old" >SFF primitive &apos;<arg fmt="%s" index="1">FFT/blk000003ae</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="old" >SFF primitive &apos;<arg fmt="%s" index="1">FFT/blk000003af</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="old" >SFF primitive &apos;<arg fmt="%s" index="1">FFT/blk000003b0</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="old" >SFF primitive &apos;<arg fmt="%s" index="1">FFT/blk000003b1</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="old" >SFF primitive &apos;<arg fmt="%s" index="1">FFT/blk000003c4</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="old" >SFF primitive &apos;<arg fmt="%s" index="1">FFT/blk000003c5</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000003c6</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000003c7</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000003c8</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000003c9</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000003ca</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000003cb</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000003cc</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000003cd</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000003ce</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000003cf</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000003d0</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000003d1</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000003d2</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000003d3</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000003d4</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000003d5</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000003d6</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000003d7</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000003d8</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000003d9</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000003da</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000003db</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000003dc</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000003dd</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000003de</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000003df</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="old" >SFF primitive &apos;<arg fmt="%s" index="1">FFT/blk000003e0</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="old" >SFF primitive &apos;<arg fmt="%s" index="1">FFT/blk000003e1</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="old" >SFF primitive &apos;<arg fmt="%s" index="1">FFT/blk000003e2</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="old" >SFF primitive &apos;<arg fmt="%s" index="1">FFT/blk000003e3</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="old" >SFF primitive &apos;<arg fmt="%s" index="1">FFT/blk000003e4</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="old" >SFF primitive &apos;<arg fmt="%s" index="1">FFT/blk000003e5</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="old" >SFF primitive &apos;<arg fmt="%s" index="1">FFT/blk000003f8</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="old" >SFF primitive &apos;<arg fmt="%s" index="1">FFT/blk000003f9</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000004db</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000004dc</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000004dd</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000004de</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000004df</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000004e0</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000004e1</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000004e2</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000004e3</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000004e4</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000004e5</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000004e6</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000004e7</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000004e8</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000004e9</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000004ea</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000004eb</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000004ec</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000004ed</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000004ee</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000004ef</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000004f0</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000004f1</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000004f2</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000004f3</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000004f4</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000004f5</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000004f6</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000004f7</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000004f8</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000004f9</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000004fa</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000004fb</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000004fc</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000004fd</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000004fe</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000004ff</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk00000500</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk00000501</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk00000502</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk00000517/blk00000518/blk0000051b</arg>&apos; with type &apos;<arg fmt="%s" index="3">SRLC32E</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">SRLC32E</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk00000517/blk00000518/blk0000051d</arg>&apos; with type &apos;<arg fmt="%s" index="3">SRLC32E</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">SRLC32E</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk00000517/blk00000518/blk0000051f</arg>&apos; with type &apos;<arg fmt="%s" index="3">SRLC32E</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">SRLC32E</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk00000517/blk00000518/blk00000521</arg>&apos; with type &apos;<arg fmt="%s" index="3">SRLC32E</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">SRLC32E</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk00000517/blk00000518/blk00000523</arg>&apos; with type &apos;<arg fmt="%s" index="3">SRLC32E</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">SRLC32E</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk00000517/blk00000518/blk00000525</arg>&apos; with type &apos;<arg fmt="%s" index="3">SRLC32E</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">SRLC32E</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk00000517/blk00000518/blk00000527</arg>&apos; with type &apos;<arg fmt="%s" index="3">SRLC32E</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">SRLC32E</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk00000517/blk00000518/blk00000529</arg>&apos; with type &apos;<arg fmt="%s" index="3">SRLC32E</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">SRLC32E</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk00000517/blk00000518/blk0000052b</arg>&apos; with type &apos;<arg fmt="%s" index="3">SRLC32E</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">SRLC32E</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk00000517/blk00000518/blk0000052d</arg>&apos; with type &apos;<arg fmt="%s" index="3">SRLC32E</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">SRLC32E</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk00000600</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk00000601</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk0000063f</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT5</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT5</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk00000646</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk00000647</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk00000648</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000006a1</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000006a2</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000006a3</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000006a4</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000006a5</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000006a6</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000006a7</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000006a8</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000006a9</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000006aa</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT6</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT6</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000006ab</arg>&apos; with type &apos;<arg fmt="%s" index="3">LUT5</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">LUT5</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INITP_00</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000006c3</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INITP_01</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000006c3</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_00</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000006c3</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_01</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000006c3</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_02</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000006c3</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_03</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000006c3</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_04</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000006c3</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_05</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000006c3</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_06</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000006c3</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_07</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000006c3</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_08</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000006c3</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_09</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000006c3</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_0A</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000006c3</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_0B</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000006c3</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_0C</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000006c3</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_0D</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000006c3</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_0E</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000006c3</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_0F</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000006c3</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_A</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000006c3</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_B</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000006c3</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">WRITE_MODE_A</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000006c3</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">WRITE_MODE_B</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000006c3</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INITP_02</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000006c3</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INITP_03</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000006c3</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_10</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000006c3</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_11</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000006c3</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_12</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000006c3</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_13</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000006c3</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_14</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000006c3</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_15</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000006c3</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_16</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000006c3</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_17</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000006c3</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_18</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000006c3</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_19</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000006c3</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_1A</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000006c3</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_1B</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000006c3</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_1C</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000006c3</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_1D</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000006c3</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_1E</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000006c3</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">INIT_1F</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000006c3</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">SRVAL_A</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000006c3</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="old" >Attribute &quot;<arg fmt="%s" index="1">SRVAL_B</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">blk000006c3</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB8BWER</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="old" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">FFT/blk000006c3</arg>&apos; with type &apos;<arg fmt="%s" index="3">RAMB8BWER</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">RAMB8BWER</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3e</arg>&apos;.
+</msg>
+
+</messages>
+

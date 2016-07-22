@@ -1,0 +1,131 @@
+
+****** PlanAhead v14.7
+  **** Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from G:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [G:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [G:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/pa.fromNetlist.tcl
+# create_project -name audio_process -dir "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/planAhead_run_3" -part xc3s500efg320-4
+create_project: Time (s): elapsed = 00:00:05 . Memory (MB): peak = 363.277 ; gain = 29.164
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process} {ipcore_dir} }
+# add_files [list {ipcore_dir/fft_core.ncf}] -fileset [get_property constrset [current_run]]
+# set_property target_constrs_file "ucf_file.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/ucf_file.ucf' to fileset 'constrs_1'
+# add_files [list {ucf_file.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc3s500efg320-4
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design audio_process.ngc ...
+WARNING:NetListWriters:298 - No output is written to audio_process.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus FREQ/max_frequency_mult0001<31 : 17> on
+   block audio_process is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file audio_process.edif ...
+ngc2edif: Total memory usage is 76072 kilobytes
+
+Parsing EDIF File [./planAhead_run_3/audio_process.data/cache/audio_process_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_3/audio_process.data/cache/audio_process_ngc_zx.edif]
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design fft_core.ngc ...
+WARNING:NetListWriters:298 - No output is written to fft_core.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file fft_core.edif ...
+ngc2edif: Total memory usage is 76448 kilobytes
+
+Reading core file 'C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/ipcore_dir/fft_core.ngc' for (cell view 'fft_core', library 'audio_process_lib', file 'audio_process.ngc')
+Parsing EDIF File [./planAhead_run_3/audio_process.data/cache/fft_core_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_3/audio_process.data/cache/fft_core_ngc_zx.edif]
+CRITICAL WARNING: [Designutils 20-1022] Could not resolve non-primitive black box cell 'DSP48A1' instantiated in module 'FFT/blk00000120'.
+Resolution: File names need to match cell names: an EDIF definition will be found in DSP48A1.edf; a HDL definition may be placed in any Verilog/VHDL file.
+CRITICAL WARNING: [Designutils 20-1022] Could not resolve non-primitive black box cell 'RAMB16BWER' instantiated in module 'FFT/blk00000188/blk0000019c'.
+Resolution: File names need to match cell names: an EDIF definition will be found in RAMB16BWER.edf; a HDL definition may be placed in any Verilog/VHDL file.
+CRITICAL WARNING: [Designutils 20-1022] Could not resolve non-primitive black box cell 'LUT6' instantiated in module 'FFT/blk00000392'.
+Resolution: File names need to match cell names: an EDIF definition will be found in LUT6.edf; a HDL definition may be placed in any Verilog/VHDL file.
+CRITICAL WARNING: [Designutils 20-1022] Could not resolve non-primitive black box cell 'SRLC32E' instantiated in module 'FFT/blk00000517/blk00000518/blk0000051b'.
+Resolution: File names need to match cell names: an EDIF definition will be found in SRLC32E.edf; a HDL definition may be placed in any Verilog/VHDL file.
+CRITICAL WARNING: [Designutils 20-1022] Could not resolve non-primitive black box cell 'LUT5' instantiated in module 'FFT/blk0000063f'.
+Resolution: File names need to match cell names: an EDIF definition will be found in LUT5.edf; a HDL definition may be placed in any Verilog/VHDL file.
+CRITICAL WARNING: [Designutils 20-1022] Could not resolve non-primitive black box cell 'RAMB8BWER' instantiated in module 'FFT/blk000006c3'.
+Resolution: File names need to match cell names: an EDIF definition will be found in RAMB8BWER.edf; a HDL definition may be placed in any Verilog/VHDL file.
+INFO: [Designutils 20-910] Reading macro library G:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [G:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [G:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+CRITICAL WARNING: [Netlist 29-29] Cell 'DSP48A1' defined in file 'fft_core.ngc' is not a supported primitive for spartan3e part: xc3s500efg320-4.  4 instances of this cell will be treated as black boxes, not architecture primitives.
+CRITICAL WARNING: [Netlist 29-29] Cell 'RAMB16BWER' defined in file 'fft_core.ngc' is not a supported primitive for spartan3e part: xc3s500efg320-4.  2 instances of this cell will be treated as black boxes, not architecture primitives.
+CRITICAL WARNING: [Netlist 29-29] Cell 'LUT6' defined in file 'fft_core.ngc' is not a supported primitive for spartan3e part: xc3s500efg320-4.  107 instances of this cell will be treated as black boxes, not architecture primitives.
+CRITICAL WARNING: [Netlist 29-29] Cell 'SRLC32E' defined in file 'fft_core.ngc' is not a supported primitive for spartan3e part: xc3s500efg320-4.  10 instances of this cell will be treated as black boxes, not architecture primitives.
+CRITICAL WARNING: [Netlist 29-29] Cell 'LUT5' defined in file 'fft_core.ngc' is not a supported primitive for spartan3e part: xc3s500efg320-4.  2 instances of this cell will be treated as black boxes, not architecture primitives.
+CRITICAL WARNING: [Netlist 29-29] Cell 'RAMB8BWER' defined in file 'fft_core.ngc' is not a supported primitive for spartan3e part: xc3s500efg320-4.  Instance 'FFT/blk000006c3' will be treated as a black box, not an architecture primitive.
+Loading clock regions from G:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockRegion.xml
+Loading clock buffers from G:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockBuffers.xml
+Loading package from G:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/fg320/Package.xml
+Loading io standards from G:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from G:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/fg320/SSORules.xml
+Loading list of drcs for the architecture : G:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing 38-77] Reading timing library G:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+INFO: [Timing 38-34] Done reading timing library G:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+Parsing UCF File [C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/ipcore_dir/fft_core.ncf]
+Finished Parsing UCF File [C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/ipcore_dir/fft_core.ncf]
+Parsing UCF File [C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/ucf_file.ucf]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site V10 [C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/ucf_file.ucf:1]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site V7 [C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/ucf_file.ucf:4]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site V5 [C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/ucf_file.ucf:6]
+WARNING: [Constraints 18-7] Clock terminal ac97_bit_clock is located on a non-clock IO location V4 this can produce sub-optimal results [C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/ucf_file.ucf:7]
+CRITICAL WARNING: [Constraints 18-5] Cannot loc instance 'FFT/blk0000068c' at site B4, Illegal site, cannot place FF/Latch on IO site [C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/ucf_file.ucf:13]
+INFO: [Constraints 18-98] IO constraint IOSTANDARD with a setting of LVTTL for net rfd will not be propagated through the buffer. The constraint should be associated with the net that is connected to the top level port. [C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/ucf_file.ucf:13]
+INFO: [Constraints 18-98] IO constraint SLEW with a setting of SLOW for net rfd will not be propagated through the buffer. The constraint should be associated with the net that is connected to the top level port. [C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/ucf_file.ucf:13]
+INFO: [Constraints 18-98] IO constraint DRIVE with a setting of 6 for net rfd will not be propagated through the buffer. The constraint should be associated with the net that is connected to the top level port. [C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/ucf_file.ucf:13]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site P16 [C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/ucf_file.ucf:19]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site N15 [C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/ucf_file.ucf:20]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site N16 [C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/ucf_file.ucf:21]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site U17 [C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/ucf_file.ucf:22]
+CRITICAL WARNING: [Constraints 18-5] Cannot loc terminal 'bulb_check[0]' at site H18, Illegal to place instance bulb_check_0_OBUF on site H18 [C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/ucf_file.ucf:27]
+CRITICAL WARNING: [Constraints 18-5] Cannot loc terminal 'bulb_check[3]' at site T11, Illegal to place instance bulb_check_3_OBUF on site T11 [C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/ucf_file.ucf:30]
+CRITICAL WARNING: [Constraints 18-5] Cannot loc terminal 'bulb_check[4]' at site V8, Illegal to place instance bulb_check_4_OBUF on site V8 [C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/ucf_file.ucf:31]
+CRITICAL WARNING: [Constraints 18-5] Cannot loc terminal 'xn_index[0]' at site A5, Illegal to place instance xn_index_0_OBUF on site A5 [C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/ucf_file.ucf:33]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site B2 [C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/ucf_file.ucf:35]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site A2 [C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/ucf_file.ucf:36]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site D6 [C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/ucf_file.ucf:37]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site C6 [C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/ucf_file.ucf:38]
+CRITICAL WARNING: [Constraints 18-5] Cannot loc terminal 'xn_index[7]' at site A3, Illegal to place instance xn_index_7_OBUF on site A3 [C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/ucf_file.ucf:40]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site B12 [C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/ucf_file.ucf:43]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site A12 [C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/ucf_file.ucf:44]
+CRITICAL WARNING: [Constraints 18-5] Cannot loc terminal 'xk_index[2]' at site A15, Illegal to place instance xk_index_2_OBUF on site A15 [C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/ucf_file.ucf:45]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site F13 [C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/ucf_file.ucf:50]
+CRITICAL WARNING: [Constraints 18-5] Cannot loc terminal 'xk_index[9]' at site C15, Illegal to place instance xk_index_9_OBUF on site C15 [C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/ucf_file.ucf:52]
+Finished Parsing UCF File [C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/ucf_file.ucf]
+INFO: [Designutils 20-20] Invalid constraints found, use command 'write_ucf -constraints invalid <file>' to save all the invalid constraints to a file
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: d4f3de57
+link_design: Time (s): elapsed = 00:00:22 . Memory (MB): peak = 430.629 ; gain = 52.602
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Sun Mar 13 10:19:11 2016...
+INFO: [Common 17-83] Releasing license: PlanAhead
