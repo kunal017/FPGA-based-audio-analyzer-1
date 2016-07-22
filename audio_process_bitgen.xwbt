@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Mudit-PC\Downloads\audio_process_final\audio_process\audio_process.ncd
+OUTFILE=C:\Users\Mudit-PC\Downloads\audio_process_final\audio_process\audio_process.bit
+FAMILY=Spartan6
+PART=xc6slx9-3csg324
+WORKINGDIR=C:\Users\Mudit-PC\Downloads\audio_process_final\audio_process
+LICENSE=WebPack
+USER_INFO=211075936_0_0_978

@@ -1,0 +1,709 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.70 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.70 secs
+ 
+--> Reading design: audio_process.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "audio_process.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "audio_process"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : audio_process
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3498 - No primary, secondary unit in the file "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/ipcore_dir/fft_core.vhd. Ignore this file from project file "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process_vhdl.prj".
+Compiling vhdl file "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_loopback.vhd" in Library work.
+Architecture behavioral of Entity audio_loopback is up to date.
+Compiling vhdl file "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/codecfft.vhd" in Library work.
+Architecture behavioral of Entity codecfft is up to date.
+Compiling vhdl file "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/max_freq.vhd" in Library work.
+Architecture behavioral of Entity max_freq is up to date.
+Compiling vhdl file "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.vhd" in Library work.
+Architecture structural of Entity audio_process is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <audio_process> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <audio_loopback> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <codecfft> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <max_freq> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <audio_process> in library <work> (Architecture <structural>).
+WARNING:Xst:2211 - "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.vhd" line 136: Instantiating black box module <fft_core>.
+Entity <audio_process> analyzed. Unit <audio_process> generated.
+
+Analyzing Entity <audio_loopback> in library <work> (Architecture <behavioral>).
+WARNING:Xst:790 - "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_loopback.vhd" line 88: Index value(s) does not match array range, simulation mismatch.
+INFO:Xst:1433 - Contents of array <command_address> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+WARNING:Xst:790 - "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_loopback.vhd" line 90: Index value(s) does not match array range, simulation mismatch.
+INFO:Xst:1433 - Contents of array <command_data> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+WARNING:Xst:790 - "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_loopback.vhd" line 93: Index value(s) does not match array range, simulation mismatch.
+INFO:Xst:1433 - Contents of array <dummy> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:2679 - Register <audio_reset_b> in unit <audio_loopback> has a constant value of 1 during circuit operation. The register is replaced by logic.
+Entity <audio_loopback> analyzed. Unit <audio_loopback> generated.
+
+Analyzing Entity <codecfft> in library <work> (Architecture <behavioral>).
+Entity <codecfft> analyzed. Unit <codecfft> generated.
+
+Analyzing Entity <max_freq> in library <work> (Architecture <behavioral>).
+INFO:Xst:2679 - Register <ready> in unit <max_freq> has a constant value of 1 during circuit operation. The register is replaced by logic.
+Entity <max_freq> analyzed. Unit <max_freq> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <audio_loopback>.
+    Related source file is "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_loopback.vhd".
+    Found 18-bit register for signal <digital_input>.
+    Found 1-bit register for signal <ac97_synch>.
+    Found 1-bit register for signal <ac97_sdata_out>.
+    Found 1-bit 20-to-1 multiplexer for signal <$varindex0000> created at line 88.
+    Found 1-bit 20-to-1 multiplexer for signal <$varindex0001> created at line 90.
+    Found 8-bit comparator greatequal for signal <ac97_sdata_out$cmp_ge0000> created at line 85.
+    Found 8-bit comparator greatequal for signal <ac97_sdata_out$cmp_ge0001> created at line 88.
+    Found 8-bit comparator lessequal for signal <ac97_sdata_out$cmp_le0000> created at line 80.
+    Found 8-bit comparator lessequal for signal <ac97_sdata_out$cmp_le0001> created at line 85.
+    Found 8-bit comparator lessequal for signal <ac97_sdata_out$cmp_le0002> created at line 88.
+    Found 8-bit up counter for signal <bit_count>.
+    Found 8-bit adder for signal <command_address$sub0000> created at line 88.
+    Found 8-bit adder for signal <command_data$sub0000> created at line 90.
+    Found 18-bit register for signal <dummy>.
+    Found 8-bit subtractor for signal <dummy$sub0000> created at line 93.
+    Found 8-bit comparator greater for signal <dummy_17$cmp_gt0000> created at line 90.
+    Found 8-bit comparator less for signal <dummy_17$cmp_lt0000> created at line 90.
+    Found 4-bit up counter for signal <frame_count>.
+    Found 8-bit up counter for signal <reset_count>.
+    Summary:
+	inferred   3 Counter(s).
+	inferred  38 D-type flip-flop(s).
+	inferred   3 Adder/Subtractor(s).
+	inferred   7 Comparator(s).
+	inferred   2 Multiplexer(s).
+Unit <audio_loopback> synthesized.
+
+
+Synthesizing Unit <codecfft>.
+    Related source file is "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/codecfft.vhd".
+Unit <codecfft> synthesized.
+
+
+Synthesizing Unit <max_freq>.
+    Related source file is "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/max_freq.vhd".
+WARNING:Xst:646 - Signal <max_frequency<31:9>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:643 - "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/max_freq.vhd" line 66: The result of a 32x10-bit multiplication is partially used. Only the 32 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+WARNING:Xst:643 - "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/max_freq.vhd" line 65: The result of a 18x18-bit multiplication is partially used. Only the 32 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+WARNING:Xst:643 - "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/max_freq.vhd" line 65: The result of a 18x18-bit multiplication is partially used. Only the 32 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+    Found 32-bit 4-to-1 multiplexer for signal <count_next>.
+    Found 32-bit adder for signal <count_next$addsub0000> created at line 87.
+    Found 32-bit register for signal <count_reg>.
+    Found 32-bit register for signal <max_fr_reg>.
+    Found 32-bit comparator greater for signal <max_fr_reg$cmp_gt0000> created at line 99.
+    Found 9-bit comparator greater for signal <max_freq_vector$cmp_gt0000> created at line 111.
+    Found 9-bit comparator greater for signal <max_freq_vector$cmp_gt0001> created at line 114.
+    Found 9-bit comparator greater for signal <max_freq_vector$cmp_gt0002> created at line 117.
+    Found 9-bit comparator greater for signal <max_freq_vector$cmp_gt0003> created at line 120.
+    Found 9-bit comparator greater for signal <max_freq_vector$cmp_gt0004> created at line 123.
+    Found 9-bit comparator greater for signal <max_freq_vector$cmp_gt0005> created at line 126.
+    Found 9-bit comparator greater for signal <max_freq_vector$cmp_gt0006> created at line 129.
+    Found 9-bit comparator greater for signal <max_freq_vector$cmp_gt0007> created at line 132.
+    Found 9-bit comparator greater for signal <max_freq_vector$cmp_gt0008> created at line 135.
+    Found 9-bit comparator greater for signal <max_freq_vector$cmp_gt0009> created at line 138.
+    Found 9-bit comparator greater for signal <max_freq_vector$cmp_gt0010> created at line 141.
+    Found 9-bit comparator greater for signal <max_freq_vector$cmp_gt0011> created at line 144.
+    Found 9-bit comparator greater for signal <max_freq_vector$cmp_gt0012> created at line 147.
+    Found 9-bit comparator lessequal for signal <max_freq_vector$cmp_le0000> created at line 109.
+    Found 9-bit comparator lessequal for signal <max_freq_vector$cmp_le0001> created at line 111.
+    Found 9-bit comparator lessequal for signal <max_freq_vector$cmp_le0002> created at line 114.
+    Found 9-bit comparator lessequal for signal <max_freq_vector$cmp_le0003> created at line 117.
+    Found 9-bit comparator lessequal for signal <max_freq_vector$cmp_le0004> created at line 120.
+    Found 9-bit comparator lessequal for signal <max_freq_vector$cmp_le0005> created at line 123.
+    Found 9-bit comparator lessequal for signal <max_freq_vector$cmp_le0006> created at line 126.
+    Found 9-bit comparator lessequal for signal <max_freq_vector$cmp_le0007> created at line 129.
+    Found 9-bit comparator lessequal for signal <max_freq_vector$cmp_le0008> created at line 132.
+    Found 9-bit comparator lessequal for signal <max_freq_vector$cmp_le0009> created at line 135.
+    Found 9-bit comparator lessequal for signal <max_freq_vector$cmp_le0010> created at line 138.
+    Found 9-bit comparator lessequal for signal <max_freq_vector$cmp_le0011> created at line 141.
+    Found 9-bit comparator lessequal for signal <max_freq_vector$cmp_le0012> created at line 144.
+    Found 9-bit comparator lessequal for signal <max_freq_vector$cmp_le0013> created at line 147.
+    Found 32-bit adder for signal <max_frequency$add0000>.
+    Found 32-bit adder for signal <max_frequency$addsub0000>.
+    Found 32x10-bit multiplier for signal <max_frequency$mult0001> created at line 66.
+    Found 32-bit register for signal <max_reg>.
+    Found 32-bit comparator lessequal for signal <max_reg$cmp_le0000> created at line 99.
+    Found 32-bit adder for signal <max_val>.
+    Found 18x18-bit multiplier for signal <max_val$mult0000> created at line 65.
+    Found 18x18-bit multiplier for signal <max_val$mult0001> created at line 65.
+    Found 1-bit register for signal <state_reg<0>>.
+    Summary:
+	inferred  97 D-type flip-flop(s).
+	inferred   4 Adder/Subtractor(s).
+	inferred   3 Multiplier(s).
+	inferred  29 Comparator(s).
+	inferred  32 Multiplexer(s).
+Unit <max_freq> synthesized.
+
+
+Synthesizing Unit <audio_process>.
+    Related source file is "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.vhd".
+WARNING:Xst:646 - Signal <ready> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <audio_process> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Multipliers                                          : 3
+ 18x18-bit multiplier                                  : 2
+ 32x10-bit multiplier                                  : 1
+# Adders/Subtractors                                   : 7
+ 32-bit adder                                          : 4
+ 8-bit adder                                           : 2
+ 8-bit subtractor                                      : 1
+# Counters                                             : 3
+ 4-bit up counter                                      : 1
+ 8-bit up counter                                      : 2
+# Registers                                            : 25
+ 1-bit register                                        : 21
+ 18-bit register                                       : 1
+ 32-bit register                                       : 3
+# Comparators                                          : 36
+ 32-bit comparator greater                             : 1
+ 32-bit comparator lessequal                           : 1
+ 8-bit comparator greatequal                           : 2
+ 8-bit comparator greater                              : 1
+ 8-bit comparator less                                 : 1
+ 8-bit comparator lessequal                            : 3
+ 9-bit comparator greater                              : 13
+ 9-bit comparator lessequal                            : 14
+# Multiplexers                                         : 3
+ 1-bit 20-to-1 multiplexer                             : 2
+ 32-bit 4-to-1 multiplexer                             : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <ipcore_dir/fft_core.ngc>.
+Reading Secure Unit <blk000001fa>.
+Loading core <fft_core> for timing and area information for instance <FFT>.
+
+Synthesizing (advanced) Unit <max_freq>.
+	Found pipelined multiplier on signal <max_frequency_mult0001>:
+		- 1 pipeline level(s) found in a register on signal <max_fr_reg>.
+		Pushing register(s) into the multiplier macro.
+INFO:Xst:2385 - HDL ADVISOR - You can improve the performance of the multiplier Mmult_max_frequency_mult0001 by adding 2 register level(s).
+Unit <max_freq> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Multipliers                                          : 3
+ 18x18-bit multiplier                                  : 2
+ 32x10-bit registered multiplier                       : 1
+# Adders/Subtractors                                   : 7
+ 19-bit adder                                          : 1
+ 32-bit adder                                          : 2
+ 5-bit adder                                           : 2
+ 5-bit subtractor                                      : 1
+ 9-bit adder                                           : 1
+# Counters                                             : 2
+ 4-bit up counter                                      : 1
+ 8-bit up counter                                      : 1
+# Registers                                            : 103
+ Flip-Flops                                            : 103
+# Comparators                                          : 36
+ 32-bit comparator greater                             : 1
+ 32-bit comparator lessequal                           : 1
+ 8-bit comparator greatequal                           : 2
+ 8-bit comparator greater                              : 1
+ 8-bit comparator less                                 : 1
+ 8-bit comparator lessequal                            : 3
+ 9-bit comparator greater                              : 13
+ 9-bit comparator lessequal                            : 14
+# Multiplexers                                         : 3
+ 1-bit 20-to-1 multiplexer                             : 2
+ 32-bit 4-to-1 multiplexer                             : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <audio_process> ...
+
+Optimizing unit <audio_loopback> ...
+
+Optimizing unit <max_freq> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block audio_process, actual ratio is 15.
+INFO:Xst:2260 - The FF/Latch <blk0000049b> in Unit <FFT> is equivalent to the following FF/Latch : <blk0000049c> 
+INFO:Xst:2260 - The FF/Latch <blk0000049b> in Unit <FFT> is equivalent to the following FF/Latch : <blk0000049c> 
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 115
+ Flip-Flops                                            : 115
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : audio_process.ngr
+Top Level Output File Name         : audio_process
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 43
+
+Cell Usage :
+# BELS                             : 918
+#      GND                         : 4
+#      INV                         : 41
+#      LUT1                        : 43
+#      LUT2                        : 145
+#      LUT3                        : 185
+#      LUT4                        : 164
+#      LUT4_D                      : 1
+#      LUT4_L                      : 2
+#      MUXCY                       : 182
+#      MUXF5                       : 6
+#      MUXF7                       : 20
+#      MUXF8                       : 10
+#      VCC                         : 2
+#      XORCY                       : 113
+# FlipFlops/Latches                : 900
+#      FD                          : 112
+#      FDE                         : 414
+#      FDR                         : 60
+#      FDRE                        : 299
+#      FDS                         : 4
+#      FDSE                        : 11
+# Shift Registers                  : 157
+#      SRL16E                      : 82
+#      SRLC16E                     : 75
+# Clock Buffers                    : 2
+#      BUFGP                       : 2
+# IO Buffers                       : 41
+#      IBUF                        : 1
+#      OBUF                        : 40
+# MULTs                            : 4
+#      MULT18X18SIO                : 4
+# Others                           : 116
+#      DSP48A1                     : 4
+#      LUT5                        : 2
+#      LUT6                        : 107
+#      RAMB16BWER                  : 2
+#      RAMB8BWER                   : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                      703  out of   4656    15%  
+ Number of Slice Flip Flops:            900  out of   9312     9%  
+ Number of 4 input LUTs:                847  out of   9312     9%  
+    Number used as logic:               690
+    Number used as Shift registers:     157
+ Number of IOs:                          43
+ Number of bonded IOBs:                  43  out of    232    18%  
+ Number of BRAMs:                         3  out of     20    15%  
+ Number of MULT18X18SIOs:                 4  out of     20    20%  
+ Number of GCLKs:                         2  out of     24     8%  
+ Number of DSP48s:                        4  out of      0        (*) 
+
+WARNING:Xst:1336 -  (*) More than 100% of Device resources are used
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 1091  |
+ac97_bit_clock                     | BUFGP                  | 50    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 14.581ns (Maximum Frequency: 68.585MHz)
+   Minimum input arrival time before clock: 2.594ns
+   Maximum output required time after clock: 24.647ns
+   Maximum combinational path delay: 2.867ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 14.581ns (frequency: 68.585MHz)
+  Total number of paths / destination ports: 2108941 / 1199
+-------------------------------------------------------------------------
+Delay:               14.581ns (Levels of Logic = 28)
+  Source:            FFT/blk000001f7 (FF)
+  Destination:       FREQ/Mmult_max_frequency_mult00011 (MULT)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: FFT/blk000001f7 to FREQ/Mmult_max_frequency_mult00011
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             2   0.591   0.447  blk000001f7 (xk_re<2>)
+     end scope: 'FFT'
+     MULT18X18SIO:A2->P10    1   4.602   0.595  FREQ/Mmult_max_val_mult0000 (FREQ/max_val_mult0000<10>)
+     LUT2:I0->O            1   0.704   0.000  FREQ/Madd_max_val_lut<10> (FREQ/Madd_max_val_lut<10>)
+     MUXCY:S->O            1   0.464   0.000  FREQ/Madd_max_val_cy<10> (FREQ/Madd_max_val_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  FREQ/Madd_max_val_cy<11> (FREQ/Madd_max_val_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  FREQ/Madd_max_val_cy<12> (FREQ/Madd_max_val_cy<12>)
+     MUXCY:CI->O           1   0.059   0.000  FREQ/Madd_max_val_cy<13> (FREQ/Madd_max_val_cy<13>)
+     MUXCY:CI->O           1   0.059   0.000  FREQ/Madd_max_val_cy<14> (FREQ/Madd_max_val_cy<14>)
+     MUXCY:CI->O           1   0.059   0.000  FREQ/Madd_max_val_cy<15> (FREQ/Madd_max_val_cy<15>)
+     MUXCY:CI->O           1   0.059   0.000  FREQ/Madd_max_val_cy<16> (FREQ/Madd_max_val_cy<16>)
+     MUXCY:CI->O           1   0.059   0.000  FREQ/Madd_max_val_cy<17> (FREQ/Madd_max_val_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  FREQ/Madd_max_val_cy<18> (FREQ/Madd_max_val_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  FREQ/Madd_max_val_cy<19> (FREQ/Madd_max_val_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  FREQ/Madd_max_val_cy<20> (FREQ/Madd_max_val_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  FREQ/Madd_max_val_cy<21> (FREQ/Madd_max_val_cy<21>)
+     MUXCY:CI->O           1   0.059   0.000  FREQ/Madd_max_val_cy<22> (FREQ/Madd_max_val_cy<22>)
+     MUXCY:CI->O           1   0.059   0.000  FREQ/Madd_max_val_cy<23> (FREQ/Madd_max_val_cy<23>)
+     MUXCY:CI->O           1   0.059   0.000  FREQ/Madd_max_val_cy<24> (FREQ/Madd_max_val_cy<24>)
+     MUXCY:CI->O           1   0.059   0.000  FREQ/Madd_max_val_cy<25> (FREQ/Madd_max_val_cy<25>)
+     MUXCY:CI->O           1   0.059   0.000  FREQ/Madd_max_val_cy<26> (FREQ/Madd_max_val_cy<26>)
+     MUXCY:CI->O           1   0.059   0.000  FREQ/Madd_max_val_cy<27> (FREQ/Madd_max_val_cy<27>)
+     MUXCY:CI->O           1   0.059   0.000  FREQ/Madd_max_val_cy<28> (FREQ/Madd_max_val_cy<28>)
+     MUXCY:CI->O           1   0.059   0.000  FREQ/Madd_max_val_cy<29> (FREQ/Madd_max_val_cy<29>)
+     MUXCY:CI->O           0   0.059   0.000  FREQ/Madd_max_val_cy<30> (FREQ/Madd_max_val_cy<30>)
+     XORCY:CI->O           2   0.804   0.526  FREQ/Madd_max_val_xor<31> (FREQ/max_val<31>)
+     LUT2:I1->O            1   0.704   0.000  FREQ/Mcompar_max_reg_cmp_le0000_lut<31> (FREQ/Mcompar_max_reg_cmp_le0000_lut<31>)
+     MUXCY:S->O           33   0.736   1.342  FREQ/Mcompar_max_reg_cmp_le0000_cy<31> (FREQ/max_reg_cmp_le0000)
+     LUT2:I1->O            2   0.704   0.447  FREQ/max_fr_reg_not00011 (FREQ/max_fr_reg_not0001)
+     MULT18X18SIO:CEA          0.735          FREQ/Mmult_max_frequency_mult0001
+    ----------------------------------------
+    Total                     14.581ns (11.224ns logic, 3.357ns route)
+                                       (77.0% logic, 23.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'ac97_bit_clock'
+  Clock period: 8.919ns (frequency: 112.120MHz)
+  Total number of paths / destination ports: 470 / 73
+-------------------------------------------------------------------------
+Delay:               8.919ns (Levels of Logic = 8)
+  Source:            LOOPBACK/bit_count_0 (FF)
+  Destination:       LOOPBACK/ac97_sdata_out (FF)
+  Source Clock:      ac97_bit_clock rising
+  Destination Clock: ac97_bit_clock rising
+
+  Data Path: LOOPBACK/bit_count_0 to LOOPBACK/ac97_sdata_out
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              25   0.591   1.435  LOOPBACK/bit_count_0 (LOOPBACK/bit_count_0)
+     LUT4_D:I0->LO         1   0.704   0.179  LOOPBACK/ac97_sdata_out_mux00041211 (N65)
+     LUT4:I1->O            1   0.704   0.455  LOOPBACK/Madd_command_address_not0000<0>11 (LOOPBACK/Madd_command_address_not0000<0>1)
+     LUT3:I2->O            1   0.704   0.000  LOOPBACK/Mmux__varindex0000_4 (LOOPBACK/Mmux__varindex0000_4)
+     MUXF5:I0->O           2   0.321   0.526  LOOPBACK/Mmux__varindex0000_2_f5 (LOOPBACK/_varindex0000)
+     LUT3:I1->O            1   0.704   0.000  LOOPBACK/ac97_sdata_out_mux0004102_SW0_SW01 (LOOPBACK/ac97_sdata_out_mux0004102_SW0_SW0)
+     MUXF5:I1->O           1   0.321   0.455  LOOPBACK/ac97_sdata_out_mux0004102_SW0_SW0_f5 (N55)
+     LUT4_L:I2->LO         1   0.704   0.104  LOOPBACK/ac97_sdata_out_mux0004102_SW0 (N37)
+     LUT4:I3->O            1   0.704   0.000  LOOPBACK/ac97_sdata_out_mux0004102 (LOOPBACK/ac97_sdata_out_mux0004)
+     FD:D                      0.308          LOOPBACK/ac97_sdata_out
+    ----------------------------------------
+    Total                      8.919ns (5.765ns logic, 3.154ns route)
+                                       (64.6% logic, 35.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 231 / 200
+-------------------------------------------------------------------------
+Offset:              1.753ns (Levels of Logic = 5)
+  Source:            FFT/blk00000646:O (PAD)
+  Destination:       FFT/blk00000424 (FF)
+  Destination Clock: clk rising
+
+  Data Path: FFT/blk00000646:O to FFT/blk00000424
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    LUT6:O                 1   0.000   0.000  blk00000646 (sig000004a4)
+     MUXCY:S->O            1   0.464   0.000  blk0000040f (sig0000048a)
+     MUXCY:CI->O           1   0.059   0.000  blk00000412 (sig0000048d)
+     MUXCY:CI->O           1   0.059   0.000  blk00000418 (sig0000049e)
+     MUXCY:CI->O           0   0.059   0.000  blk00000415 (sig0000049b)
+     XORCY:CI->O           1   0.804   0.000  blk0000040c (sig00000487)
+     FD:D                      0.308          blk00000424
+    ----------------------------------------
+    Total                      1.753ns (1.753ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'ac97_bit_clock'
+  Total number of paths / destination ports: 18 / 18
+-------------------------------------------------------------------------
+Offset:              2.594ns (Levels of Logic = 1)
+  Source:            ac97_sdata_in (PAD)
+  Destination:       LOOPBACK/dummy_0 (FF)
+  Destination Clock: ac97_bit_clock rising
+
+  Data Path: ac97_sdata_in to LOOPBACK/dummy_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            18   1.218   1.068  ac97_sdata_in_IBUF (ac97_sdata_in_IBUF)
+     FDE:D                     0.308          LOOPBACK/dummy_17
+    ----------------------------------------
+    Total                      2.594ns (1.526ns logic, 1.068ns route)
+                                       (58.8% logic, 41.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 156709 / 841
+-------------------------------------------------------------------------
+Offset:              24.647ns (Levels of Logic = 25)
+  Source:            FREQ/Mmult_max_frequency_mult0001 (MULT)
+  Destination:       bulb_check<3> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: FREQ/Mmult_max_frequency_mult0001 to bulb_check<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     MULT18X18SIO:CLK->P0    1   3.917   0.595  FREQ/Mmult_max_frequency_mult0001 (FREQ/Mmult_max_frequency_mult0001_P_to_Adder_A_0)
+     LUT1:I0->O            1   0.704   0.000  FREQ/Madd_max_frequency_add0000_Madd_cy<0>_rt (FREQ/Madd_max_frequency_add0000_Madd_cy<0>_rt)
+     MUXCY:S->O            1   0.464   0.000  FREQ/Madd_max_frequency_add0000_Madd_cy<0> (FREQ/Madd_max_frequency_add0000_Madd_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  FREQ/Madd_max_frequency_add0000_Madd_cy<1> (FREQ/Madd_max_frequency_add0000_Madd_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  FREQ/Madd_max_frequency_add0000_Madd_cy<2> (FREQ/Madd_max_frequency_add0000_Madd_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  FREQ/Madd_max_frequency_add0000_Madd_cy<3> (FREQ/Madd_max_frequency_add0000_Madd_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  FREQ/Madd_max_frequency_add0000_Madd_cy<4> (FREQ/Madd_max_frequency_add0000_Madd_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  FREQ/Madd_max_frequency_add0000_Madd_cy<5> (FREQ/Madd_max_frequency_add0000_Madd_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  FREQ/Madd_max_frequency_add0000_Madd_cy<6> (FREQ/Madd_max_frequency_add0000_Madd_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  FREQ/Madd_max_frequency_add0000_Madd_cy<7> (FREQ/Madd_max_frequency_add0000_Madd_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  FREQ/Madd_max_frequency_add0000_Madd_cy<8> (FREQ/Madd_max_frequency_add0000_Madd_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  FREQ/Madd_max_frequency_add0000_Madd_cy<9> (FREQ/Madd_max_frequency_add0000_Madd_cy<9>)
+     XORCY:CI->O           1   0.804   0.595  FREQ/Madd_max_frequency_add0000_Madd_xor<10> (FREQ/max_frequency_add0000<10>)
+     LUT1:I0->O            1   0.704   0.000  FREQ/Madd_max_frequency_addsub0000_Madd_cy<0>_rt (FREQ/Madd_max_frequency_addsub0000_Madd_cy<0>_rt)
+     MUXCY:S->O            1   0.464   0.000  FREQ/Madd_max_frequency_addsub0000_Madd_cy<0> (FREQ/Madd_max_frequency_addsub0000_Madd_cy<0>)
+     XORCY:CI->O           1   0.804   0.455  FREQ/Madd_max_frequency_addsub0000_Madd_xor<1> (FREQ/max_frequency_addsub0000<1>)
+     LUT3:I2->O            2   0.704   0.526  FREQ/max_frequency<1>1 (FREQ/max_frequency<1>)
+     LUT4:I1->O            4   0.704   0.666  FREQ/max_freq_vector_cmp_le000231 (FREQ/N33)
+     LUT3:I1->O            6   0.704   0.748  FREQ/max_freq_vector_cmp_le00011 (FREQ/max_freq_vector_cmp_le00011)
+     LUT3:I1->O            1   0.704   0.424  FREQ/max_freq_vector_cmp_le00092_SW2 (N51)
+     LUT4:I3->O            6   0.704   0.844  FREQ/max_freq_vector_cmp_le00092 (FREQ/max_freq_vector_cmp_le0009)
+     LUT4:I0->O            1   0.704   0.499  FREQ/max_freq_vector<3>12 (FREQ/max_freq_vector<3>12)
+     LUT4:I1->O            1   0.704   0.424  FREQ/max_freq_vector<3>26 (FREQ/max_freq_vector<3>26)
+     LUT4:I3->O            1   0.704   0.424  FREQ/max_freq_vector<3>68_SW0 (N41)
+     LUT4:I3->O            2   0.704   0.447  FREQ/max_freq_vector<3>68 (bulb_check_3_OBUF)
+     OBUF:I->O                 3.272          bulb_check_3_OBUF (bulb_check<3>)
+    ----------------------------------------
+    Total                     24.647ns (18.000ns logic, 6.647ns route)
+                                       (73.0% logic, 27.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'ac97_bit_clock'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              4.310ns (Levels of Logic = 1)
+  Source:            LOOPBACK/ac97_synch (FF)
+  Destination:       ac97_synch (PAD)
+  Source Clock:      ac97_bit_clock rising
+
+  Data Path: LOOPBACK/ac97_synch to ac97_synch
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDS:C->Q              2   0.591   0.447  LOOPBACK/ac97_synch (LOOPBACK/ac97_synch)
+     OBUF:I->O                 3.272          ac97_synch_OBUF (ac97_synch)
+    ----------------------------------------
+    Total                      4.310ns (3.863ns logic, 0.447ns route)
+                                       (89.6% logic, 10.4% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 240 / 240
+-------------------------------------------------------------------------
+Delay:               2.867ns (Levels of Logic = 2)
+  Source:            clk (PAD)
+  Destination:       FFT/blk0000011d:CLK (PAD)
+
+  Data Path: clk to FFT/blk0000011d:CLK
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     BUFGP:I->O         1091   1.457   1.410  clk_BUFGP (clk_BUFGP)
+     begin scope: 'FFT'
+    DSP48A1:CLK                0.000          blk00000120
+    ----------------------------------------
+    Total                      2.867ns (1.457ns logic, 1.410ns route)
+                                       (50.8% logic, 49.2% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 18.00 secs
+Total CPU time to Xst completion: 17.62 secs
+ 
+--> 
+
+Total memory usage is 338380 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   11 (   0 filtered)
+Number of infos    :    8 (   0 filtered)
+

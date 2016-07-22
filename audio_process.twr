@@ -1,0 +1,585 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+G:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr
+audio_process.pcf -ucf ucf_file.ucf
+
+Design file:              audio_process.ncd
+Physical constraint file: audio_process.pcf
+Device,package,speed:     xc6slx9,csg324,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+================================================================================
+Timing constraint: NET "clk_BUFGP/IBUFG" PERIOD = 10 ns HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 3903455 paths analyzed, 2848 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   9.547ns.
+--------------------------------------------------------------------------------
+
+Paths for end point FREQ/max_reg_2 (SLICE_X7Y4.CE), 112960 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     0.453ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               FFT/blk000001d1 (FF)
+  Destination:          FREQ/max_reg_2 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      9.504ns (Levels of Logic = 4)
+  Clock Path Skew:      -0.008ns (0.274 - 0.282)
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: FFT/blk000001d1 to FREQ/max_reg_2
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X9Y3.CMUX      Tshcko                0.461   fft_im<7>
+                                                       FFT/blk000001d1
+    DSP48_X0Y0.A4        net (fanout=2)        0.762   fft_im<4>
+    DSP48_X0Y0.PCOUT9    Tdspdo_A_PCOUT        3.359   FREQ/Mmult_n0115
+                                                       FREQ/Mmult_n0115
+    DSP48_X0Y1.PCIN9     net (fanout=1)        0.002   FREQ/Mmult_n0115_PCOUT_to_Maddsub_n0114_PCIN_9
+    DSP48_X0Y1.P16       Tdspdo_PCIN_P         2.264   FREQ/Maddsub_n0114
+                                                       FREQ/Maddsub_n0114
+    SLICE_X6Y6.A5        net (fanout=2)        1.130   FREQ/max_val<16>
+    SLICE_X6Y6.COUT      Topcya                0.409   FREQ/Mcompar_n0016_cy<11>
+                                                       FREQ/Mcompar_n0016_lutdi8
+                                                       FREQ/Mcompar_n0016_cy<11>
+    SLICE_X6Y7.CIN       net (fanout=1)        0.003   FREQ/Mcompar_n0016_cy<11>
+    SLICE_X6Y7.DMUX      Tcind                 0.235   FREQ/Mcompar_n0016_cy<15>
+                                                       FREQ/Mcompar_n0016_cy<15>
+    SLICE_X7Y4.CE        net (fanout=9)        0.539   FREQ/Mcompar_n0016_cy<15>
+    SLICE_X7Y4.CLK       Tceck                 0.340   FREQ/max_reg<3>
+                                                       FREQ/max_reg_2
+    -------------------------------------------------  ---------------------------
+    Total                                      9.504ns (7.068ns logic, 2.436ns route)
+                                                       (74.4% logic, 25.6% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     0.453ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               FFT/blk000001cf (FF)
+  Destination:          FREQ/max_reg_2 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      9.504ns (Levels of Logic = 4)
+  Clock Path Skew:      -0.008ns (0.274 - 0.282)
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: FFT/blk000001cf to FREQ/max_reg_2
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X9Y3.DMUX      Tshcko                0.461   fft_im<7>
+                                                       FFT/blk000001cf
+    DSP48_X0Y0.A6        net (fanout=2)        0.762   fft_im<6>
+    DSP48_X0Y0.PCOUT9    Tdspdo_A_PCOUT        3.359   FREQ/Mmult_n0115
+                                                       FREQ/Mmult_n0115
+    DSP48_X0Y1.PCIN9     net (fanout=1)        0.002   FREQ/Mmult_n0115_PCOUT_to_Maddsub_n0114_PCIN_9
+    DSP48_X0Y1.P16       Tdspdo_PCIN_P         2.264   FREQ/Maddsub_n0114
+                                                       FREQ/Maddsub_n0114
+    SLICE_X6Y6.A5        net (fanout=2)        1.130   FREQ/max_val<16>
+    SLICE_X6Y6.COUT      Topcya                0.409   FREQ/Mcompar_n0016_cy<11>
+                                                       FREQ/Mcompar_n0016_lutdi8
+                                                       FREQ/Mcompar_n0016_cy<11>
+    SLICE_X6Y7.CIN       net (fanout=1)        0.003   FREQ/Mcompar_n0016_cy<11>
+    SLICE_X6Y7.DMUX      Tcind                 0.235   FREQ/Mcompar_n0016_cy<15>
+                                                       FREQ/Mcompar_n0016_cy<15>
+    SLICE_X7Y4.CE        net (fanout=9)        0.539   FREQ/Mcompar_n0016_cy<15>
+    SLICE_X7Y4.CLK       Tceck                 0.340   FREQ/max_reg<3>
+                                                       FREQ/max_reg_2
+    -------------------------------------------------  ---------------------------
+    Total                                      9.504ns (7.068ns logic, 2.436ns route)
+                                                       (74.4% logic, 25.6% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     0.453ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               FFT/blk000001cf (FF)
+  Destination:          FREQ/max_reg_2 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      9.504ns (Levels of Logic = 4)
+  Clock Path Skew:      -0.008ns (0.274 - 0.282)
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: FFT/blk000001cf to FREQ/max_reg_2
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X9Y3.DMUX      Tshcko                0.461   fft_im<7>
+                                                       FFT/blk000001cf
+    DSP48_X0Y0.A6        net (fanout=2)        0.762   fft_im<6>
+    DSP48_X0Y0.PCOUT0    Tdspdo_A_PCOUT        3.359   FREQ/Mmult_n0115
+                                                       FREQ/Mmult_n0115
+    DSP48_X0Y1.PCIN0     net (fanout=1)        0.002   FREQ/Mmult_n0115_PCOUT_to_Maddsub_n0114_PCIN_0
+    DSP48_X0Y1.P16       Tdspdo_PCIN_P         2.264   FREQ/Maddsub_n0114
+                                                       FREQ/Maddsub_n0114
+    SLICE_X6Y6.A5        net (fanout=2)        1.130   FREQ/max_val<16>
+    SLICE_X6Y6.COUT      Topcya                0.409   FREQ/Mcompar_n0016_cy<11>
+                                                       FREQ/Mcompar_n0016_lutdi8
+                                                       FREQ/Mcompar_n0016_cy<11>
+    SLICE_X6Y7.CIN       net (fanout=1)        0.003   FREQ/Mcompar_n0016_cy<11>
+    SLICE_X6Y7.DMUX      Tcind                 0.235   FREQ/Mcompar_n0016_cy<15>
+                                                       FREQ/Mcompar_n0016_cy<15>
+    SLICE_X7Y4.CE        net (fanout=9)        0.539   FREQ/Mcompar_n0016_cy<15>
+    SLICE_X7Y4.CLK       Tceck                 0.340   FREQ/max_reg<3>
+                                                       FREQ/max_reg_2
+    -------------------------------------------------  ---------------------------
+    Total                                      9.504ns (7.068ns logic, 2.436ns route)
+                                                       (74.4% logic, 25.6% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point FREQ/max_reg_1 (SLICE_X7Y4.CE), 112960 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     0.469ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               FFT/blk000001d1 (FF)
+  Destination:          FREQ/max_reg_1 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      9.488ns (Levels of Logic = 4)
+  Clock Path Skew:      -0.008ns (0.274 - 0.282)
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: FFT/blk000001d1 to FREQ/max_reg_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X9Y3.CMUX      Tshcko                0.461   fft_im<7>
+                                                       FFT/blk000001d1
+    DSP48_X0Y0.A4        net (fanout=2)        0.762   fft_im<4>
+    DSP48_X0Y0.PCOUT9    Tdspdo_A_PCOUT        3.359   FREQ/Mmult_n0115
+                                                       FREQ/Mmult_n0115
+    DSP48_X0Y1.PCIN9     net (fanout=1)        0.002   FREQ/Mmult_n0115_PCOUT_to_Maddsub_n0114_PCIN_9
+    DSP48_X0Y1.P16       Tdspdo_PCIN_P         2.264   FREQ/Maddsub_n0114
+                                                       FREQ/Maddsub_n0114
+    SLICE_X6Y6.A5        net (fanout=2)        1.130   FREQ/max_val<16>
+    SLICE_X6Y6.COUT      Topcya                0.409   FREQ/Mcompar_n0016_cy<11>
+                                                       FREQ/Mcompar_n0016_lutdi8
+                                                       FREQ/Mcompar_n0016_cy<11>
+    SLICE_X6Y7.CIN       net (fanout=1)        0.003   FREQ/Mcompar_n0016_cy<11>
+    SLICE_X6Y7.DMUX      Tcind                 0.235   FREQ/Mcompar_n0016_cy<15>
+                                                       FREQ/Mcompar_n0016_cy<15>
+    SLICE_X7Y4.CE        net (fanout=9)        0.539   FREQ/Mcompar_n0016_cy<15>
+    SLICE_X7Y4.CLK       Tceck                 0.324   FREQ/max_reg<3>
+                                                       FREQ/max_reg_1
+    -------------------------------------------------  ---------------------------
+    Total                                      9.488ns (7.052ns logic, 2.436ns route)
+                                                       (74.3% logic, 25.7% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     0.469ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               FFT/blk000001cf (FF)
+  Destination:          FREQ/max_reg_1 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      9.488ns (Levels of Logic = 4)
+  Clock Path Skew:      -0.008ns (0.274 - 0.282)
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: FFT/blk000001cf to FREQ/max_reg_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X9Y3.DMUX      Tshcko                0.461   fft_im<7>
+                                                       FFT/blk000001cf
+    DSP48_X0Y0.A6        net (fanout=2)        0.762   fft_im<6>
+    DSP48_X0Y0.PCOUT9    Tdspdo_A_PCOUT        3.359   FREQ/Mmult_n0115
+                                                       FREQ/Mmult_n0115
+    DSP48_X0Y1.PCIN9     net (fanout=1)        0.002   FREQ/Mmult_n0115_PCOUT_to_Maddsub_n0114_PCIN_9
+    DSP48_X0Y1.P16       Tdspdo_PCIN_P         2.264   FREQ/Maddsub_n0114
+                                                       FREQ/Maddsub_n0114
+    SLICE_X6Y6.A5        net (fanout=2)        1.130   FREQ/max_val<16>
+    SLICE_X6Y6.COUT      Topcya                0.409   FREQ/Mcompar_n0016_cy<11>
+                                                       FREQ/Mcompar_n0016_lutdi8
+                                                       FREQ/Mcompar_n0016_cy<11>
+    SLICE_X6Y7.CIN       net (fanout=1)        0.003   FREQ/Mcompar_n0016_cy<11>
+    SLICE_X6Y7.DMUX      Tcind                 0.235   FREQ/Mcompar_n0016_cy<15>
+                                                       FREQ/Mcompar_n0016_cy<15>
+    SLICE_X7Y4.CE        net (fanout=9)        0.539   FREQ/Mcompar_n0016_cy<15>
+    SLICE_X7Y4.CLK       Tceck                 0.324   FREQ/max_reg<3>
+                                                       FREQ/max_reg_1
+    -------------------------------------------------  ---------------------------
+    Total                                      9.488ns (7.052ns logic, 2.436ns route)
+                                                       (74.3% logic, 25.7% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     0.469ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               FFT/blk000001cf (FF)
+  Destination:          FREQ/max_reg_1 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      9.488ns (Levels of Logic = 4)
+  Clock Path Skew:      -0.008ns (0.274 - 0.282)
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: FFT/blk000001cf to FREQ/max_reg_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X9Y3.DMUX      Tshcko                0.461   fft_im<7>
+                                                       FFT/blk000001cf
+    DSP48_X0Y0.A6        net (fanout=2)        0.762   fft_im<6>
+    DSP48_X0Y0.PCOUT0    Tdspdo_A_PCOUT        3.359   FREQ/Mmult_n0115
+                                                       FREQ/Mmult_n0115
+    DSP48_X0Y1.PCIN0     net (fanout=1)        0.002   FREQ/Mmult_n0115_PCOUT_to_Maddsub_n0114_PCIN_0
+    DSP48_X0Y1.P16       Tdspdo_PCIN_P         2.264   FREQ/Maddsub_n0114
+                                                       FREQ/Maddsub_n0114
+    SLICE_X6Y6.A5        net (fanout=2)        1.130   FREQ/max_val<16>
+    SLICE_X6Y6.COUT      Topcya                0.409   FREQ/Mcompar_n0016_cy<11>
+                                                       FREQ/Mcompar_n0016_lutdi8
+                                                       FREQ/Mcompar_n0016_cy<11>
+    SLICE_X6Y7.CIN       net (fanout=1)        0.003   FREQ/Mcompar_n0016_cy<11>
+    SLICE_X6Y7.DMUX      Tcind                 0.235   FREQ/Mcompar_n0016_cy<15>
+                                                       FREQ/Mcompar_n0016_cy<15>
+    SLICE_X7Y4.CE        net (fanout=9)        0.539   FREQ/Mcompar_n0016_cy<15>
+    SLICE_X7Y4.CLK       Tceck                 0.324   FREQ/max_reg<3>
+                                                       FREQ/max_reg_1
+    -------------------------------------------------  ---------------------------
+    Total                                      9.488ns (7.052ns logic, 2.436ns route)
+                                                       (74.3% logic, 25.7% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point FREQ/Mmult_n01161 (DSP48_X0Y3.CEA), 112960 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     0.473ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               FFT/blk000001d1 (FF)
+  Destination:          FREQ/Mmult_n01161 (DSP)
+  Requirement:          10.000ns
+  Data Path Delay:      9.487ns (Levels of Logic = 4)
+  Clock Path Skew:      -0.005ns (0.277 - 0.282)
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: FFT/blk000001d1 to FREQ/Mmult_n01161
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X9Y3.CMUX      Tshcko                0.461   fft_im<7>
+                                                       FFT/blk000001d1
+    DSP48_X0Y0.A4        net (fanout=2)        0.762   fft_im<4>
+    DSP48_X0Y0.PCOUT9    Tdspdo_A_PCOUT        3.359   FREQ/Mmult_n0115
+                                                       FREQ/Mmult_n0115
+    DSP48_X0Y1.PCIN9     net (fanout=1)        0.002   FREQ/Mmult_n0115_PCOUT_to_Maddsub_n0114_PCIN_9
+    DSP48_X0Y1.P16       Tdspdo_PCIN_P         2.264   FREQ/Maddsub_n0114
+                                                       FREQ/Maddsub_n0114
+    SLICE_X6Y6.A5        net (fanout=2)        1.130   FREQ/max_val<16>
+    SLICE_X6Y6.COUT      Topcya                0.409   FREQ/Mcompar_n0016_cy<11>
+                                                       FREQ/Mcompar_n0016_lutdi8
+                                                       FREQ/Mcompar_n0016_cy<11>
+    SLICE_X6Y7.CIN       net (fanout=1)        0.003   FREQ/Mcompar_n0016_cy<11>
+    SLICE_X6Y7.DMUX      Tcind                 0.235   FREQ/Mcompar_n0016_cy<15>
+                                                       FREQ/Mcompar_n0016_cy<15>
+    DSP48_X0Y3.CEA       net (fanout=9)        0.832   FREQ/Mcompar_n0016_cy<15>
+    DSP48_X0Y3.CLK       Tdspdck_CEA_A1REG     0.030   FREQ/Mmult_n01161
+                                                       FREQ/Mmult_n01161
+    -------------------------------------------------  ---------------------------
+    Total                                      9.487ns (6.758ns logic, 2.729ns route)
+                                                       (71.2% logic, 28.8% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     0.473ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               FFT/blk000001cf (FF)
+  Destination:          FREQ/Mmult_n01161 (DSP)
+  Requirement:          10.000ns
+  Data Path Delay:      9.487ns (Levels of Logic = 4)
+  Clock Path Skew:      -0.005ns (0.277 - 0.282)
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: FFT/blk000001cf to FREQ/Mmult_n01161
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X9Y3.DMUX      Tshcko                0.461   fft_im<7>
+                                                       FFT/blk000001cf
+    DSP48_X0Y0.A6        net (fanout=2)        0.762   fft_im<6>
+    DSP48_X0Y0.PCOUT9    Tdspdo_A_PCOUT        3.359   FREQ/Mmult_n0115
+                                                       FREQ/Mmult_n0115
+    DSP48_X0Y1.PCIN9     net (fanout=1)        0.002   FREQ/Mmult_n0115_PCOUT_to_Maddsub_n0114_PCIN_9
+    DSP48_X0Y1.P16       Tdspdo_PCIN_P         2.264   FREQ/Maddsub_n0114
+                                                       FREQ/Maddsub_n0114
+    SLICE_X6Y6.A5        net (fanout=2)        1.130   FREQ/max_val<16>
+    SLICE_X6Y6.COUT      Topcya                0.409   FREQ/Mcompar_n0016_cy<11>
+                                                       FREQ/Mcompar_n0016_lutdi8
+                                                       FREQ/Mcompar_n0016_cy<11>
+    SLICE_X6Y7.CIN       net (fanout=1)        0.003   FREQ/Mcompar_n0016_cy<11>
+    SLICE_X6Y7.DMUX      Tcind                 0.235   FREQ/Mcompar_n0016_cy<15>
+                                                       FREQ/Mcompar_n0016_cy<15>
+    DSP48_X0Y3.CEA       net (fanout=9)        0.832   FREQ/Mcompar_n0016_cy<15>
+    DSP48_X0Y3.CLK       Tdspdck_CEA_A1REG     0.030   FREQ/Mmult_n01161
+                                                       FREQ/Mmult_n01161
+    -------------------------------------------------  ---------------------------
+    Total                                      9.487ns (6.758ns logic, 2.729ns route)
+                                                       (71.2% logic, 28.8% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     0.473ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               FFT/blk000001cf (FF)
+  Destination:          FREQ/Mmult_n01161 (DSP)
+  Requirement:          10.000ns
+  Data Path Delay:      9.487ns (Levels of Logic = 4)
+  Clock Path Skew:      -0.005ns (0.277 - 0.282)
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: FFT/blk000001cf to FREQ/Mmult_n01161
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X9Y3.DMUX      Tshcko                0.461   fft_im<7>
+                                                       FFT/blk000001cf
+    DSP48_X0Y0.A6        net (fanout=2)        0.762   fft_im<6>
+    DSP48_X0Y0.PCOUT0    Tdspdo_A_PCOUT        3.359   FREQ/Mmult_n0115
+                                                       FREQ/Mmult_n0115
+    DSP48_X0Y1.PCIN0     net (fanout=1)        0.002   FREQ/Mmult_n0115_PCOUT_to_Maddsub_n0114_PCIN_0
+    DSP48_X0Y1.P16       Tdspdo_PCIN_P         2.264   FREQ/Maddsub_n0114
+                                                       FREQ/Maddsub_n0114
+    SLICE_X6Y6.A5        net (fanout=2)        1.130   FREQ/max_val<16>
+    SLICE_X6Y6.COUT      Topcya                0.409   FREQ/Mcompar_n0016_cy<11>
+                                                       FREQ/Mcompar_n0016_lutdi8
+                                                       FREQ/Mcompar_n0016_cy<11>
+    SLICE_X6Y7.CIN       net (fanout=1)        0.003   FREQ/Mcompar_n0016_cy<11>
+    SLICE_X6Y7.DMUX      Tcind                 0.235   FREQ/Mcompar_n0016_cy<15>
+                                                       FREQ/Mcompar_n0016_cy<15>
+    DSP48_X0Y3.CEA       net (fanout=9)        0.832   FREQ/Mcompar_n0016_cy<15>
+    DSP48_X0Y3.CLK       Tdspdck_CEA_A1REG     0.030   FREQ/Mmult_n01161
+                                                       FREQ/Mmult_n01161
+    -------------------------------------------------  ---------------------------
+    Total                                      9.487ns (6.758ns logic, 2.729ns route)
+                                                       (71.2% logic, 28.8% route)
+
+--------------------------------------------------------------------------------
+
+Hold Paths: NET "clk_BUFGP/IBUFG" PERIOD = 10 ns HIGH 50%;
+--------------------------------------------------------------------------------
+
+Paths for end point FREQ/Mmult_n01161 (DSP48_X0Y3.A0), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.297ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               FREQ/count_reg_17 (FF)
+  Destination:          FREQ/Mmult_n01161 (DSP)
+  Requirement:          0.000ns
+  Data Path Delay:      0.299ns (Levels of Logic = 0)
+  Clock Path Skew:      0.002ns (0.112 - 0.110)
+  Source Clock:         clk_BUFGP rising at 10.000ns
+  Destination Clock:    clk_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: FREQ/count_reg_17 to FREQ/Mmult_n01161
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X6Y14.BQ       Tcko                  0.200   FREQ/count_reg<19>
+                                                       FREQ/count_reg_17
+    DSP48_X0Y3.A0        net (fanout=3)        0.136   FREQ/count_reg<17>
+    DSP48_X0Y3.CLK       Tdspckd_A_A1REG(-Th)     0.037   FREQ/Mmult_n01161
+                                                       FREQ/Mmult_n01161
+    -------------------------------------------------  ---------------------------
+    Total                                      0.299ns (0.163ns logic, 0.136ns route)
+                                                       (54.5% logic, 45.5% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point FREQ/Mmult_n01161 (DSP48_X0Y3.A5), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.297ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               FREQ/count_reg_22 (FF)
+  Destination:          FREQ/Mmult_n01161 (DSP)
+  Requirement:          0.000ns
+  Data Path Delay:      0.299ns (Levels of Logic = 0)
+  Clock Path Skew:      0.002ns (0.112 - 0.110)
+  Source Clock:         clk_BUFGP rising at 10.000ns
+  Destination Clock:    clk_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: FREQ/count_reg_22 to FREQ/Mmult_n01161
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X6Y15.CQ       Tcko                  0.200   FREQ/count_reg<23>
+                                                       FREQ/count_reg_22
+    DSP48_X0Y3.A5        net (fanout=3)        0.136   FREQ/count_reg<22>
+    DSP48_X0Y3.CLK       Tdspckd_A_A1REG(-Th)     0.037   FREQ/Mmult_n01161
+                                                       FREQ/Mmult_n01161
+    -------------------------------------------------  ---------------------------
+    Total                                      0.299ns (0.163ns logic, 0.136ns route)
+                                                       (54.5% logic, 45.5% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point FFT/blk0000019d/blk000001b1 (RAMB16_X1Y10.DIA13), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.301ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               FFT/blk0000002d (FF)
+  Destination:          FFT/blk0000019d/blk000001b1 (RAM)
+  Requirement:          0.000ns
+  Data Path Delay:      0.302ns (Levels of Logic = 0)
+  Clock Path Skew:      0.001ns (0.070 - 0.069)
+  Source Clock:         clk_BUFGP rising at 10.000ns
+  Destination Clock:    clk_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: FFT/blk0000002d to FFT/blk0000019d/blk000001b1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X17Y20.DQ      Tcko                  0.198   FFT/sig000000ab
+                                                       FFT/blk0000002d
+    RAMB16_X1Y10.DIA13   net (fanout=1)        0.157   FFT/sig000000ab
+    RAMB16_X1Y10.CLKA    Trckd_DIA   (-Th)     0.053   FFT/blk0000019d/blk000001b1
+                                                       FFT/blk0000019d/blk000001b1
+    -------------------------------------------------  ---------------------------
+    Total                                      0.302ns (0.145ns logic, 0.157ns route)
+                                                       (48.0% logic, 52.0% route)
+
+--------------------------------------------------------------------------------
+
+Component Switching Limit Checks: NET "clk_BUFGP/IBUFG" PERIOD = 10 ns HIGH 50%;
+--------------------------------------------------------------------------------
+Slack: 6.876ns (period - min period limit)
+  Period: 10.000ns
+  Min period limit: 3.124ns (320.102MHz) (Trper_CLKA)
+  Physical resource: FFT/blk000006c3/CLKAWRCLK
+  Logical resource: FFT/blk000006c3/CLKAWRCLK
+  Location pin: RAMB8_X1Y18.CLKAWRCLK
+  Clock network: clk_BUFGP
+--------------------------------------------------------------------------------
+Slack: 6.876ns (period - min period limit)
+  Period: 10.000ns
+  Min period limit: 3.124ns (320.102MHz) (Trper_CLKB)
+  Physical resource: FFT/blk000006c3/CLKBRDCLK
+  Logical resource: FFT/blk000006c3/CLKBRDCLK
+  Location pin: RAMB8_X1Y18.CLKBRDCLK
+  Clock network: clk_BUFGP
+--------------------------------------------------------------------------------
+Slack: 6.876ns (period - min period limit)
+  Period: 10.000ns
+  Min period limit: 3.124ns (320.102MHz) (Trper_CLKA(Fmax))
+  Physical resource: FFT/blk0000019d/blk000001b1/CLKA
+  Logical resource: FFT/blk0000019d/blk000001b1/CLKA
+  Location pin: RAMB16_X1Y10.CLKA
+  Clock network: clk_BUFGP
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    9.547|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0  (Setup/Max: 0, Hold: 0)
+
+Constraints cover 3903455 paths, 0 nets, and 2701 connections
+
+Design statistics:
+   Minimum period:   9.547ns{1}   (Maximum frequency: 104.745MHz)
+
+
+------------------------------------Footnotes-----------------------------------
+1)  The minimum period statistic assumes all single cycle delays.
+
+Analysis completed Sat Mar 12 12:46:13 2016 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 258 MB
+
+
+

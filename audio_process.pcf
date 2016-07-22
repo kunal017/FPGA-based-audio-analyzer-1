@@ -1,0 +1,51 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sat Mar 12 12:45:50 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "xn_index<0>" LOCATE = SITE "A5" LEVEL 1;
+COMP "xn_index<1>" LOCATE = SITE "C5" LEVEL 1;
+COMP "xn_index<2>" LOCATE = SITE "B2" LEVEL 1;
+COMP "xn_index<3>" LOCATE = SITE "A2" LEVEL 1;
+COMP "xn_index<4>" LOCATE = SITE "D6" LEVEL 1;
+COMP "xn_index<5>" LOCATE = SITE "C6" LEVEL 1;
+COMP "xn_index<6>" LOCATE = SITE "B3" LEVEL 1;
+COMP "xn_index<7>" LOCATE = SITE "A3" LEVEL 1;
+COMP "xn_index<8>" LOCATE = SITE "B4" LEVEL 1;
+COMP "xn_index<9>" LOCATE = SITE "A4" LEVEL 1;
+COMP "clk" LOCATE = SITE "V10" LEVEL 1;
+PIN clk_pin<0> = BEL "clk" PINNAME PAD;
+PIN "clk_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "bulb_check<0>" LOCATE = SITE "H18" LEVEL 1;
+COMP "bulb_check<1>" LOCATE = SITE "J16" LEVEL 1;
+COMP "bulb_check<2>" LOCATE = SITE "R11" LEVEL 1;
+COMP "bulb_check<3>" LOCATE = SITE "T11" LEVEL 1;
+COMP "bulb_check<4>" LOCATE = SITE "V8" LEVEL 1;
+COMP "done" LOCATE = SITE "A8" LEVEL 1;
+COMP "busy" LOCATE = SITE "B11" LEVEL 1;
+COMP "ac97_synch" LOCATE = SITE "V5" LEVEL 1;
+COMP "ac97_bit_clock" LOCATE = SITE "V4" LEVEL 1;
+PIN ac97_bit_clock_pin<0> = BEL "ac97_bit_clock" PINNAME PAD;
+PIN "ac97_bit_clock_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "max_freq_vector<0>" LOCATE = SITE "P15" LEVEL 1;
+COMP "max_freq_vector<1>" LOCATE = SITE "P16" LEVEL 1;
+COMP "max_freq_vector<2>" LOCATE = SITE "N15" LEVEL 1;
+COMP "max_freq_vector<3>" LOCATE = SITE "N16" LEVEL 1;
+COMP "max_freq_vector<4>" LOCATE = SITE "U17" LEVEL 1;
+COMP "edone" LOCATE = SITE "A11" LEVEL 1;
+COMP "ac97_sdata_out" LOCATE = SITE "V7" LEVEL 1;
+COMP "audio_reset_b" LOCATE = SITE "U5" LEVEL 1;
+COMP "ac97_sdata_in" LOCATE = SITE "T4" LEVEL 1;
+COMP "xk_index<0>" LOCATE = SITE "B12" LEVEL 1;
+COMP "xk_index<1>" LOCATE = SITE "A12" LEVEL 1;
+COMP "xk_index<2>" LOCATE = SITE "A15" LEVEL 1;
+COMP "xk_index<3>" LOCATE = SITE "D14" LEVEL 1;
+COMP "xk_index<4>" LOCATE = SITE "G9" LEVEL 1;
+COMP "xk_index<5>" LOCATE = SITE "B14" LEVEL 1;
+COMP "xk_index<6>" LOCATE = SITE "A14" LEVEL 1;
+COMP "xk_index<7>" LOCATE = SITE "F13" LEVEL 1;
+COMP "xk_index<8>" LOCATE = SITE "E13" LEVEL 1;
+COMP "xk_index<9>" LOCATE = SITE "C15" LEVEL 1;
+NET "clk_BUFGP/IBUFG" PERIOD = 10 ns HIGH 50%;
+SCHEMATIC END;
+

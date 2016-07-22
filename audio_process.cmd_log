@@ -1,0 +1,472 @@
+xst -intstyle ise -ifn "C:/Users/kunal017/Downloads/ASP/audio_process/audio_process.xst" -ofn "C:/Users/kunal017/Downloads/ASP/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+xst -intstyle ise -ifn "C:/Users/kunal017/Downloads/ASP/audio_process/audio_process.xst" -ofn "C:/Users/kunal017/Downloads/ASP/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+xst -intstyle ise -ifn "C:/Users/kunal017/Downloads/ASP/audio_process/audio_process.xst" -ofn "C:/Users/kunal017/Downloads/ASP/audio_process/audio_process.syr" 
+xst -intstyle ise -ifn "C:/Users/kunal017/Downloads/ASP/audio_process/audio_process.xst" -ofn "C:/Users/kunal017/Downloads/ASP/audio_process/audio_process.syr" 
+xst -intstyle ise -ifn "C:/Users/kunal017/Downloads/ASP/audio_process/audio_process.xst" -ofn "C:/Users/kunal017/Downloads/ASP/audio_process/audio_process.syr" 
+xst -intstyle ise -ifn "C:/Users/kunal017/Downloads/ASP/audio_process/audio_process.xst" -ofn "C:/Users/kunal017/Downloads/ASP/audio_process/audio_process.syr" 
+xst -intstyle ise -ifn "C:/Users/kunal017/Downloads/ASP/audio_process/audio_process.xst" -ofn "C:/Users/kunal017/Downloads/ASP/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/kunal017/Downloads/ASP/ASP/asp_ucf.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+xst -intstyle ise -ifn "C:/Users/kunal017/Downloads/ASP/audio_process/audio_process.xst" -ofn "C:/Users/kunal017/Downloads/ASP/audio_process/audio_process.syr" 
+xst -intstyle ise -ifn "C:/Users/kunal017/Downloads/ASP/audio_process/audio_process.xst" -ofn "C:/Users/kunal017/Downloads/ASP/audio_process/audio_process.syr" 
+xst -intstyle ise -ifn "C:/Users/kunal017/Downloads/ASP/audio_process/audio_process.xst" -ofn "C:/Users/kunal017/Downloads/ASP/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/kunal017/Downloads/ASP/ASP/asp_ucf.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+xst -intstyle ise -ifn "C:/Users/kunal017/Downloads/ASP/audio_process/audio_process.xst" -ofn "C:/Users/kunal017/Downloads/ASP/audio_process/audio_process.syr" 
+xst -intstyle ise -ifn "C:/Users/kunal017/Downloads/ASP/audio_process/audio_process.xst" -ofn "C:/Users/kunal017/Downloads/ASP/audio_process/audio_process.syr" 
+xst -intstyle ise -ifn "C:/Users/kunal017/Downloads/ASP/audio_process/audio_process.xst" -ofn "C:/Users/kunal017/Downloads/ASP/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/kunal017/Downloads/ASP/ASP/asp_ucf.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+xst -intstyle ise -ifn "C:/Users/kunal017/Downloads/ASP/audio_process/audio_process.xst" -ofn "C:/Users/kunal017/Downloads/ASP/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/audio_process/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/audio_process/audio_process/audio_process.syr" 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/audio_process/audio_process/audio_process.syr" 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/audio_process/audio_process/audio_process.syr" 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/audio_process/audio_process/audio_process.syr" 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/audio_process/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/audio_process/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/audio_process/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/audio_process/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/audio_process/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/audio_process/audio_process/audio_process.syr" 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/audio_process/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/audio_process/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/audio_process/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/audio_process/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.syr" 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.syr" 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.syr" 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.syr" 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.syr" 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.syr" 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.syr" 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.syr" 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.syr" 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.syr" 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.syr" 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.syr" 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.syr" 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.syr" 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.syr" 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.syr" 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.syr" 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.syr" 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.syr" 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.syr" 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.syr" 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.syr" 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.syr" 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.syr" 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.syr" 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/Elektronikas/audio_process/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.syr" 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.syr" 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.syr" 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.syr" 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.syr" 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.syr" 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.syr" 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.syr" 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.syr" 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.syr" 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc6slx9-csg324-3 audio_process.ngc audio_process.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o audio_process_map.ncd audio_process.ngd audio_process.pcf 
+par -w -intstyle ise -ol high -mt off audio_process_map.ncd audio_process.ncd audio_process.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml audio_process.twx audio_process.ncd -o audio_process.twr audio_process.pcf -ucf ucf_file.ucf 
+bitgen -intstyle ise -f audio_process.ut audio_process.ncd 
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc3s500e-fg320-4 audio_process.ngc audio_process.ngd  
+xst -intstyle ise -ifn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.xst" -ofn "C:/Users/Mudit-PC/Downloads/audio_process_final/audio_process/audio_process.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc3s500e-fg320-4 audio_process.ngc audio_process.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p xc3s500e-fg320-4 audio_process.ngc audio_process.ngd  

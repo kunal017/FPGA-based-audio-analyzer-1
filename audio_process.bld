@@ -1,0 +1,1133 @@
+Release 14.7 ngdbuild P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf_file.ucf -p
+xc3s500e-fg320-4 audio_process.ngc audio_process.ngd
+
+Reading NGO file
+"C:/Users/kunal017/Desktop/Music_Spectrometer/audio_process.ngc" ...
+Loading design module "ipcore_dir/fft_core.ngc"...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "ucf_file.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+WARNING:ConstraintSystem:119 - Constraint <NET "rfd" LOC = "B4" |>
+   [ucf_file.ucf(13)]: This constraint cannot be distributed from the design
+   objects matching 'NET "rfd"' because those design objects do not contain or
+   drive any instances of the correct type.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "rfd" LOC = "B4" |> [ucf_file.ucf(13)]' could not be found and so the
+   Locate constraint will be removed.
+
+WARNING:ConstraintSystem:119 - Constraint <IOSTANDARD = LVTTL |>
+   [ucf_file.ucf(13)]: This constraint cannot be distributed from the design
+   objects matching 'NET "rfd"' because those design objects do not contain or
+   drive any instances of the correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <SLEW = SLOW |> [ucf_file.ucf(13)]:
+   This constraint cannot be distributed from the design objects matching 'NET
+   "rfd"' because those design objects do not contain or drive any instances of
+   the correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <DRIVE = 6 ;> [ucf_file.ucf(13)]: This
+   constraint cannot be distributed from the design objects matching 'NET "rfd"'
+   because those design objects do not contain or drive any instances of the
+   correct type.
+
+INFO:ConstraintSystem - The Period constraint <PERIOD = 100MHZ |>
+   [ucf_file.ucf(1)], is specified using the Net Period method which is not
+   recommended. Please use the Timespec PERIOD method.
+
+Done...
+
+Checking expanded design ...
+WARNING:NgdBuild:486 - Attribute "PREG" is not allowed on symbol "blk0000011d"
+   of type "DSP48A1".  This attribute will be ignored.
+ERROR:NgdBuild:604 - logical block 'FFT/blk0000011d' with type 'DSP48A1' could
+   not be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'DSP48A1' is not supported in target
+   'spartan3e'.
+WARNING:NgdBuild:486 - Attribute "PREG" is not allowed on symbol "blk0000011e"
+   of type "DSP48A1".  This attribute will be ignored.
+ERROR:NgdBuild:604 - logical block 'FFT/blk0000011e' with type 'DSP48A1' could
+   not be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'DSP48A1' is not supported in target
+   'spartan3e'.
+WARNING:NgdBuild:486 - Attribute "PREG" is not allowed on symbol "blk0000011f"
+   of type "DSP48A1".  This attribute will be ignored.
+ERROR:NgdBuild:604 - logical block 'FFT/blk0000011f' with type 'DSP48A1' could
+   not be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'DSP48A1' is not supported in target
+   'spartan3e'.
+WARNING:NgdBuild:486 - Attribute "PREG" is not allowed on symbol "blk00000120"
+   of type "DSP48A1".  This attribute will be ignored.
+ERROR:NgdBuild:604 - logical block 'FFT/blk00000120' with type 'DSP48A1' could
+   not be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'DSP48A1' is not supported in target
+   'spartan3e'.
+WARNING:NgdBuild:486 - Attribute "INITP_00" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INITP_01" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INITP_02" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INITP_03" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INITP_04" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INITP_05" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INITP_06" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INITP_07" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_00" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_01" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_02" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_03" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_04" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_05" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_06" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_07" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_08" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_09" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_0A" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_0B" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_0C" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_0D" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_0E" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_0F" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_10" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_11" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_12" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_13" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_14" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_15" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_16" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_17" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_18" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_19" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_1A" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_1B" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_1C" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_1D" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_1E" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_1F" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_20" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_21" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_22" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_23" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_24" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_25" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_26" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_27" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_28" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_29" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_2A" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_2B" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_2C" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_2D" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_2E" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_2F" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_30" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_31" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_32" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_33" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_34" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_35" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_36" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_37" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_38" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_39" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_3A" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_3B" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_3C" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_3D" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_3E" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_3F" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_A" is not allowed on symbol "blk0000019c"
+   of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_B" is not allowed on symbol "blk0000019c"
+   of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "SRVAL_A" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "SRVAL_B" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "WRITE_MODE_A" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "WRITE_MODE_B" is not allowed on symbol
+   "blk0000019c" of type "RAMB16BWER".  This attribute will be ignored.
+ERROR:NgdBuild:604 - logical block 'FFT/blk00000188/blk0000019c' with type
+   'RAMB16BWER' could not be resolved. A pin name misspelling can cause this, a
+   missing edif or ngc file, case mismatch between the block name and the edif
+   or ngc file name, or the misspelling of a type name. Symbol 'RAMB16BWER' is
+   not supported in target 'spartan3e'.
+WARNING:NgdBuild:486 - Attribute "INITP_00" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INITP_01" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INITP_02" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INITP_03" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INITP_04" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INITP_05" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INITP_06" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INITP_07" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_00" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_01" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_02" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_03" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_04" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_05" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_06" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_07" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_08" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_09" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_0A" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_0B" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_0C" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_0D" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_0E" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_0F" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_10" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_11" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_12" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_13" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_14" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_15" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_16" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_17" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_18" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_19" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_1A" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_1B" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_1C" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_1D" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_1E" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_1F" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_20" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_21" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_22" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_23" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_24" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_25" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_26" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_27" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_28" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_29" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_2A" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_2B" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_2C" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_2D" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_2E" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_2F" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_30" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_31" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_32" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_33" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_34" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_35" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_36" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_37" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_38" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_39" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_3A" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_3B" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_3C" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_3D" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_3E" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_3F" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_A" is not allowed on symbol "blk000001b1"
+   of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_B" is not allowed on symbol "blk000001b1"
+   of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "SRVAL_A" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "SRVAL_B" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "WRITE_MODE_A" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "WRITE_MODE_B" is not allowed on symbol
+   "blk000001b1" of type "RAMB16BWER".  This attribute will be ignored.
+ERROR:NgdBuild:604 - logical block 'FFT/blk0000019d/blk000001b1' with type
+   'RAMB16BWER' could not be resolved. A pin name misspelling can cause this, a
+   missing edif or ngc file, case mismatch between the block name and the edif
+   or ngc file name, or the misspelling of a type name. Symbol 'RAMB16BWER' is
+   not supported in target 'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk00000392' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk00000393' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk00000394' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk00000395' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk00000396' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk00000397' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk00000398' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk00000399' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk0000039a' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk0000039b' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk0000039c' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk0000039d' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk0000039e' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk0000039f' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000003a0' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000003a1' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000003a2' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000003a3' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000003a4' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000003a5' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000003a6' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000003a7' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000003a8' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000003a9' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000003aa' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000003ab' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+WARNING:NgdBuild:443 - SFF primitive 'FFT/blk000003ac' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'FFT/blk000003ad' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'FFT/blk000003ae' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'FFT/blk000003af' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'FFT/blk000003b0' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'FFT/blk000003b1' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'FFT/blk000003c4' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'FFT/blk000003c5' has unconnected output
+   pin
+ERROR:NgdBuild:604 - logical block 'FFT/blk000003c6' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000003c7' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000003c8' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000003c9' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000003ca' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000003cb' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000003cc' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000003cd' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000003ce' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000003cf' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000003d0' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000003d1' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000003d2' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000003d3' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000003d4' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000003d5' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000003d6' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000003d7' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000003d8' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000003d9' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000003da' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000003db' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000003dc' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000003dd' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000003de' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000003df' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+WARNING:NgdBuild:443 - SFF primitive 'FFT/blk000003e0' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'FFT/blk000003e1' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'FFT/blk000003e2' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'FFT/blk000003e3' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'FFT/blk000003e4' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'FFT/blk000003e5' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'FFT/blk000003f8' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'FFT/blk000003f9' has unconnected output
+   pin
+ERROR:NgdBuild:604 - logical block 'FFT/blk000004db' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000004dc' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000004dd' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000004de' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000004df' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000004e0' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000004e1' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000004e2' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000004e3' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000004e4' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000004e5' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000004e6' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000004e7' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000004e8' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000004e9' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000004ea' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000004eb' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000004ec' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000004ed' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000004ee' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000004ef' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000004f0' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000004f1' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000004f2' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000004f3' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000004f4' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000004f5' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000004f6' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000004f7' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000004f8' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000004f9' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000004fa' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000004fb' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000004fc' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000004fd' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000004fe' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000004ff' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk00000500' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk00000501' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk00000502' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk00000517/blk00000518/blk0000051b'
+   with type 'SRLC32E' could not be resolved. A pin name misspelling can cause
+   this, a missing edif or ngc file, case mismatch between the block name and
+   the edif or ngc file name, or the misspelling of a type name. Symbol
+   'SRLC32E' is not supported in target 'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk00000517/blk00000518/blk0000051d'
+   with type 'SRLC32E' could not be resolved. A pin name misspelling can cause
+   this, a missing edif or ngc file, case mismatch between the block name and
+   the edif or ngc file name, or the misspelling of a type name. Symbol
+   'SRLC32E' is not supported in target 'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk00000517/blk00000518/blk0000051f'
+   with type 'SRLC32E' could not be resolved. A pin name misspelling can cause
+   this, a missing edif or ngc file, case mismatch between the block name and
+   the edif or ngc file name, or the misspelling of a type name. Symbol
+   'SRLC32E' is not supported in target 'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk00000517/blk00000518/blk00000521'
+   with type 'SRLC32E' could not be resolved. A pin name misspelling can cause
+   this, a missing edif or ngc file, case mismatch between the block name and
+   the edif or ngc file name, or the misspelling of a type name. Symbol
+   'SRLC32E' is not supported in target 'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk00000517/blk00000518/blk00000523'
+   with type 'SRLC32E' could not be resolved. A pin name misspelling can cause
+   this, a missing edif or ngc file, case mismatch between the block name and
+   the edif or ngc file name, or the misspelling of a type name. Symbol
+   'SRLC32E' is not supported in target 'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk00000517/blk00000518/blk00000525'
+   with type 'SRLC32E' could not be resolved. A pin name misspelling can cause
+   this, a missing edif or ngc file, case mismatch between the block name and
+   the edif or ngc file name, or the misspelling of a type name. Symbol
+   'SRLC32E' is not supported in target 'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk00000517/blk00000518/blk00000527'
+   with type 'SRLC32E' could not be resolved. A pin name misspelling can cause
+   this, a missing edif or ngc file, case mismatch between the block name and
+   the edif or ngc file name, or the misspelling of a type name. Symbol
+   'SRLC32E' is not supported in target 'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk00000517/blk00000518/blk00000529'
+   with type 'SRLC32E' could not be resolved. A pin name misspelling can cause
+   this, a missing edif or ngc file, case mismatch between the block name and
+   the edif or ngc file name, or the misspelling of a type name. Symbol
+   'SRLC32E' is not supported in target 'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk00000517/blk00000518/blk0000052b'
+   with type 'SRLC32E' could not be resolved. A pin name misspelling can cause
+   this, a missing edif or ngc file, case mismatch between the block name and
+   the edif or ngc file name, or the misspelling of a type name. Symbol
+   'SRLC32E' is not supported in target 'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk00000517/blk00000518/blk0000052d'
+   with type 'SRLC32E' could not be resolved. A pin name misspelling can cause
+   this, a missing edif or ngc file, case mismatch between the block name and
+   the edif or ngc file name, or the misspelling of a type name. Symbol
+   'SRLC32E' is not supported in target 'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk00000600' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk00000601' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk0000063f' with type 'LUT5' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT5' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk00000646' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk00000647' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk00000648' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000006a1' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000006a2' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000006a3' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000006a4' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000006a5' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000006a6' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000006a7' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000006a8' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000006a9' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000006aa' with type 'LUT6' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT6' is not supported in target
+   'spartan3e'.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000006ab' with type 'LUT5' could not
+   be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'LUT5' is not supported in target
+   'spartan3e'.
+WARNING:NgdBuild:486 - Attribute "INITP_00" is not allowed on symbol
+   "blk000006c3" of type "RAMB8BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INITP_01" is not allowed on symbol
+   "blk000006c3" of type "RAMB8BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_00" is not allowed on symbol
+   "blk000006c3" of type "RAMB8BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_01" is not allowed on symbol
+   "blk000006c3" of type "RAMB8BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_02" is not allowed on symbol
+   "blk000006c3" of type "RAMB8BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_03" is not allowed on symbol
+   "blk000006c3" of type "RAMB8BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_04" is not allowed on symbol
+   "blk000006c3" of type "RAMB8BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_05" is not allowed on symbol
+   "blk000006c3" of type "RAMB8BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_06" is not allowed on symbol
+   "blk000006c3" of type "RAMB8BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_07" is not allowed on symbol
+   "blk000006c3" of type "RAMB8BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_08" is not allowed on symbol
+   "blk000006c3" of type "RAMB8BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_09" is not allowed on symbol
+   "blk000006c3" of type "RAMB8BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_0A" is not allowed on symbol
+   "blk000006c3" of type "RAMB8BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_0B" is not allowed on symbol
+   "blk000006c3" of type "RAMB8BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_0C" is not allowed on symbol
+   "blk000006c3" of type "RAMB8BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_0D" is not allowed on symbol
+   "blk000006c3" of type "RAMB8BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_0E" is not allowed on symbol
+   "blk000006c3" of type "RAMB8BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_0F" is not allowed on symbol
+   "blk000006c3" of type "RAMB8BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_A" is not allowed on symbol "blk000006c3"
+   of type "RAMB8BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_B" is not allowed on symbol "blk000006c3"
+   of type "RAMB8BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "WRITE_MODE_A" is not allowed on symbol
+   "blk000006c3" of type "RAMB8BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "WRITE_MODE_B" is not allowed on symbol
+   "blk000006c3" of type "RAMB8BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INITP_02" is not allowed on symbol
+   "blk000006c3" of type "RAMB8BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INITP_03" is not allowed on symbol
+   "blk000006c3" of type "RAMB8BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_10" is not allowed on symbol
+   "blk000006c3" of type "RAMB8BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_11" is not allowed on symbol
+   "blk000006c3" of type "RAMB8BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_12" is not allowed on symbol
+   "blk000006c3" of type "RAMB8BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_13" is not allowed on symbol
+   "blk000006c3" of type "RAMB8BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_14" is not allowed on symbol
+   "blk000006c3" of type "RAMB8BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_15" is not allowed on symbol
+   "blk000006c3" of type "RAMB8BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_16" is not allowed on symbol
+   "blk000006c3" of type "RAMB8BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_17" is not allowed on symbol
+   "blk000006c3" of type "RAMB8BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_18" is not allowed on symbol
+   "blk000006c3" of type "RAMB8BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_19" is not allowed on symbol
+   "blk000006c3" of type "RAMB8BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_1A" is not allowed on symbol
+   "blk000006c3" of type "RAMB8BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_1B" is not allowed on symbol
+   "blk000006c3" of type "RAMB8BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_1C" is not allowed on symbol
+   "blk000006c3" of type "RAMB8BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_1D" is not allowed on symbol
+   "blk000006c3" of type "RAMB8BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_1E" is not allowed on symbol
+   "blk000006c3" of type "RAMB8BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "INIT_1F" is not allowed on symbol
+   "blk000006c3" of type "RAMB8BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "SRVAL_A" is not allowed on symbol
+   "blk000006c3" of type "RAMB8BWER".  This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "SRVAL_B" is not allowed on symbol
+   "blk000006c3" of type "RAMB8BWER".  This attribute will be ignored.
+ERROR:NgdBuild:604 - logical block 'FFT/blk000006c3' with type 'RAMB8BWER' could
+   not be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, case mismatch between the block name and the edif or ngc file name, or
+   the misspelling of a type name. Symbol 'RAMB8BWER' is not supported in target
+   'spartan3e'.
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:   126
+  Number of warnings: 223
+
+Total memory usage is 185896 kilobytes
+
+Total REAL time to NGDBUILD completion:  5 sec
+Total CPU time to NGDBUILD completion:   3 sec
+
+One or more errors were found during NGDBUILD.  No NGD file will be written.
+
+Writing NGDBUILD log file "audio_process.bld"...

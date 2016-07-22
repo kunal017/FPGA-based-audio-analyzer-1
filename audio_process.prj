@@ -1,0 +1,5 @@
+vhdl work "ipcore_dir/fft_core.vhd"
+vhdl work "max_freq.vhd"
+vhdl work "codecfft.vhd"
+vhdl work "audio_loopback.vhd"
+vhdl work "audio_process.vhd"

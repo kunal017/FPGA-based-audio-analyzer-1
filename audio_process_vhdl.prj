@@ -1,0 +1,5 @@
+vhdl work "C:\Users\Mudit-PC\Downloads\audio_process_final\audio_process\ipcore_dir\fft_core.vhd"
+vhdl work "C:\Users\Mudit-PC\Downloads\audio_process_final\audio_process\max_freq.vhd"
+vhdl work "C:\Users\Mudit-PC\Downloads\audio_process_final\audio_process\codecfft.vhd"
+vhdl work "C:\Users\Mudit-PC\Downloads\audio_process_final\audio_process\audio_loopback.vhd"
+vhdl work "C:\Users\Mudit-PC\Downloads\audio_process_final\audio_process\audio_process.vhd"
